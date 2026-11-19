@@ -90,7 +90,7 @@
 
             for (int i = 0; i < players.GetLength(0); i++)
             {
-                Console.Write($"A(z) {i + 1, 2}. játékos: {jatekosok[i], -8}\t pontjai: ");
+                Console.Write($"A(z) {i + 1, 2}. játékos: {jatekosok[i], -8} \t pontjai: ");
                 int osszeg = 0;
                 for (int j = 0; j < players.GetLength(1); j++)
                 {
